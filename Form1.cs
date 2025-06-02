@@ -272,6 +272,7 @@ namespace 学生管理系统
             listBox_information_dispaly.Items.Clear();
             foreach (StudentCollection.Student student in students)
             {
+                //添加了一行注释
                 listBox_information_dispaly.Items.Add($"{student.id}         {student.name}          {student.Grade}");
             }
         }
